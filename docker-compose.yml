@@ -1,0 +1,18 @@
+version: "4.0"
+
+services:
+  backend:
+    container_name: chat-backend
+    build: ./backend
+    ports:
+      - "3001:3001"
+    command: npm start
+
+  frontend:
+    container_name: chat-frontend
+    build:
+      context: ./frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
