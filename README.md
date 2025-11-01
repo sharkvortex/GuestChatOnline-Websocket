@@ -17,5 +17,5 @@ Frontend: http://localhost:5173
 
 Backend: http://localhost:3001
 
-<p align="center"> <img src="./frontend/public/1.png" width="300" alt="Preview 1" /> <img src="./chat-frontend/public/2.png" width="300" alt="Preview 2" /> </p>
-<p align="center"> <img src="./frontend/public/2.png.png" width="300" alt="Preview 1" /> <img src="./chat-frontend/public/2.png" width="300" alt="Preview 2" /> </p>
+![Preview 1](./frontend/public/1.png)
+![Preview 2](./frontend/public/2.png)
